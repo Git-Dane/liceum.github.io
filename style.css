@@ -102,12 +102,12 @@ main {
 }
 
 .cart a {
-	display: block;
 	margin-top: 10px;
 }
 
 .carts {
 	display: flex;
+	padding: 0;
 }
 
 .cart a {
@@ -175,7 +175,6 @@ main {
 	border-radius: 10px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	margin-right: 10px;
-	padding: 10px;
 	margin-bottom: 10px;
 	width: 25%;
 }
@@ -240,16 +239,70 @@ footer a {
 }
 
 .text-on-image {
-	top: 600px;
-	right: 64vh;
-	position: absolute;
 	text-align: center;
 	color: #897d8dc0;
+	background-image: url(./img/f3151a5e923ce257264b27001660f209-1958659410.jpg);
+	width: 80%;
+	margin: 0 auto;
+	height: 600px;
+	border-radius: 15px;
 }
 
 .text-on-image h3 {
-	margin: 0;
 	font-size: 100px;
-	font-weight: 900;
-	line-height: 100px;
+}
+
+@media (max-width: 800px) {
+	.text-on-image h3 {
+		font-size: 70px;
+	}
+	.text-on-image {
+		height: 400px;
+	}
+	.c {
+		width: 80%;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 600px) {
+	.text-on-image h3 {
+		font-size: 50px;
+	}
+	.text-on-image {
+		height: 300px;
+	}
+}
+
+@media (max-width: 1600px) {
+	.carts {
+		display: block;
+		width: 80%;
+		margin: 0 auto;
+	}
+	.guar {
+		margin: 0 auto;
+		margin-bottom: 20px;
+		font-size: 24px;
+		width: 100%;
+	}
+}
+
+@media (max-width: 500px) {
+	.advantages {
+		font-size: 14px;
+	}
+	.all {
+		padding: 0;
+	}
+}
+
+@media (max-width: 416px) {
+	.text-on-image h3 {
+		font-size: 40px;
+	}
+	.text-on-image {
+		height: 200px;
+	}
 }
