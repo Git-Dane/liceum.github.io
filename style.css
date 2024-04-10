@@ -101,7 +101,7 @@ main {
 	height: 300px;
 }
 
-.cart a {
+.cart p {
 	margin-top: 10px;
 }
 
@@ -110,7 +110,7 @@ main {
 	padding: 0;
 }
 
-.cart a {
+.cart p {
 	width: 85%;
 }
 
@@ -250,6 +250,52 @@ footer a {
 
 .text-on-image h3 {
 	font-size: 100px;
+}
+
+.sobr h1 {
+	color: #d5c2dbc0;
+	text-align: center;
+	padding: 25px 0;
+	margin: 0;
+}
+
+.sobr h2,
+h3 {
+	padding: 15px 25px;
+	margin: 0;
+	color: #808894;
+}
+
+.sobr img {
+	border-radius: 20px;
+	width: 60%;
+}
+
+.sobr p {
+	padding: 5px 10px;
+	margin: 0 25px;
+	font-size: 20px;
+}
+
+.png1 img {
+	padding-bottom: 10px;
+}
+
+.btn {
+	text-align: center;
+}
+
+.btn a {
+	color: #d5c2dbc0;
+}
+
+.sobr ul {
+	padding-left: 45px;
+	list-style: none;
+}
+
+.sobr li {
+	padding-bottom: 7px;
 }
 
 @media (max-width: 800px) {
